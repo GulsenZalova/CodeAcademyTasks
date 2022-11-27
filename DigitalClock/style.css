@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color:rgb(24, 20, 20);
+}
+.clock-elements{
+    display: flex;
+    gap: 50px;
+    width: 100%;
+    justify-content: center;
+}
+
+.clock-element{
+    position: relative;
+    display: flex;
+    background-color: azure;
+    padding: 40px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+.dubl{
+    display: flex;
+    color: azure;
+    align-items: center;
+    font-size: 50px;
+}
+.clock-elements:not(:last-child)::after{
+    position: absolute;
+    content: ":";
+    font-size: 50px;
+    background-color: azure;
+}
