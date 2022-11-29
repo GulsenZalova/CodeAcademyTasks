@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <!-- Css Link -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Fontawesome link -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <div class="container">
+        <div class="alert-box"></div>
+        <div class="wrapper">
+            <p class="heading">Number Guessing Game</p>
+          <div class="wrapper-content">
+            <p class="description">Guess a number between 1-15.</p>
+            <input type="text" id="entry-guess">
+            <button id="guess-generator">Guess</button>
+            <div class="result-game">
+                <p>Guessed numbers are : <span class="guess-number"></span></p>
+                <p>No. of guesses: <span class="random-number"></span></p> 
+            </div>
+            <div class="result-messagge"></div>
+          </div>
+        </div>
+    </div>
+    <!-- Javascript Link -->
+    <script src="./app.js"></script>
+</body>
+</html>
