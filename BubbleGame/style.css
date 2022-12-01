@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Nunito:wght@400;500;700&family=Qwitcher+Grypen&family=Roboto:ital,wght@0,100;0,500;1,100&family=Yanone+Kaffeesatz:wght@200;400;500;600;700&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+    background-color: transparent;
+}
+
+.html{
+    font-size: 62.5%;
+    font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: cadetblue;
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: darkcyan;
+    gap: 1rem;
+    padding: 3rem;
+}
+.game-title{
+    text-align: center;
+    font-size: 1.5rem;
+    color: white;
+}
+#entry-name{
+    background-color: white;
+    width: 100%;
+    padding: 0.8rem 2.5rem;
+    border-radius: 0.5rem;
+}
+.gameScreenArea{
+    border-radius: .5rem;
+    width: 35rem;
+    height: 90vh;
+    box-shadow: -1px 7px 23px -5px rgba(0,0,0,0.75);
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 2rem;
+}
+.startScreen{
+    box-shadow: -1px 7px 23px -5px rgba(0,0,0,0.75);
+    border-radius: .5rem;
+}
+.game-area{
+    position: relative;
+    width: 100%;
+    height: 50vh;
+    background-color: cadetblue;
+    border-radius: 0.8rem;
+}
+.game-info{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: flex-start;
+    gap: 1rem;
+    color: white;
+    font-size: 2rem;
+}
+.game-control-btns{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+.game-control-btns button{
+    background-color: cadetblue;
+    padding: 1rem;
+    border-radius: 0.5rem;
+    color: white;
+}
+.top .bottom{
+    display: flex;
+    gap: 2rem;
+}
+.hide{
+    display: none;
+}
+.btn:disabled{
+    background-color: darkslategray;
+}
+
+.bubble{
+    position: absolute;
+    width: 1.2rem;
+    height: 1.2rem;
+    background-color: deeppink;
+    border-radius: 50%;
+    /* top: 40px;
+    left: 50px; */
+}
+.startBtn{
+    color: white;
+    padding: 10px 30px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.disable{
+    pointer-events: none;
+    opacity: 0.7;
+}
+@media (max-width:450px){
+    html{
+        font-size: 50%;
+    }
+}
+
+@media (max-width:768px){
+    html{
+        font-size: 55%;
+    }
+}

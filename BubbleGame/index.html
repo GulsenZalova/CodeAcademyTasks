@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container startScreen">
+        <div class="wrapper">
+            <h1 class="game-title">Bubble Game</h1>
+            <input type="text" placeholder="Enter Your Name" id="entry-name">
+            <button class="btn startBtn">Start</button>
+        </div>
+    </div>
+    <div class="container gameScreen hide">
+        <div class="wrapper gameScreenArea">
+            <div class="game-info">
+                <p>Player: <span class="gamer">Gülşən</span></p>
+                <p>Score: <span class="score">0</span></p>
+                <p>High Score: <span class="high-score"></span></p>
+            </div>
+            <div class="game-area"></div>
+            <div class="game-control-btns">
+                <div class="top">
+                    <button class="btn easy level" disabled>Easy</button>
+                    <button class="btn medium level" disabled>Medium</button>
+                    <button class="btn hard level" disabled>Hard</button>
+                </div>
+                <div class="bottom">
+                    <button class="btn startGame game">Start Game</button>
+                    <button class="btn stop game" disabled>Stop Game</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+
+</html>
