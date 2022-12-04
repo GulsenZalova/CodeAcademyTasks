@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- CSS Link -->
+    <link rel="stylesheet" href="./Css/style.css">
+    <title>Rock Paper Scissors</title>
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="game-logo">
+                <img src="./images/logo.svg" alt="">
+            </div>
+            <div class="game-score">
+                <span class="score-text">SCORE</span>
+                <span class="score">0</span>
+            </div>
+        </header>
+        <main>
+            <div class="wrapper">
+                <div class="game-area game-selection">
+                    <div class="btn btn-paper">
+                        <img src="./images/icon-paper.svg" id="paper" alt="">
+                    </div>
+                    <div class="btn btn-scissors">
+                        <img src="./images/icon-scissors.svg" id="scissors" alt="">
+                    </div>
+                    <div class="btn btn-rock">
+                        <img src="./images/icon-rock.svg" id="rock" alt="rock">
+                    </div>
+                </div>
+                <div class="game-area game-start active">
+                    <div class="user-choice-area">
+                        <!-- <h3>YOU PICKED</h3> -->
+                        <!-- <div class="btn btn-paper">
+                            <img src="./images/icon-paper.svg" alt="" class="user-choice" id="paper">
+                        </div> -->
+                    </div>
+                    <div class="result-area">
+                        <span class="result"></span>
+                        <button class="play-again">Play-Again</button>
+                    </div>
+                    <div class="computer-choice-area">
+                        <!-- <h3>THE HOUSE PİCKED</h3> -->
+                        <!-- <div class="btn btn-rock">
+                            <img src="./images/icon-rock.svg" class="computer-choice" alt="" id="rock">
+                        </div> -->
+                    </div>
+                </div>
+            </div>
+        </main>
+        <button class="game-rules">RULES</button> -->
+        <div class="modal">
+            <div class="modal-wrapper">
+                <div class="modal-header">
+                    <span class="rule-heading"> RULES</span>
+                    <img src="./images/icon-close.svg" alt="" class="modal-close">
+                </div>
+                <div class="modal-rules">
+                    <img src="./images/image-rules.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./Js/app.js"></script>
+</body>
+
+</html>
